@@ -1,0 +1,176 @@
+    *{
+        box-sizing: border-box;
+    }
+
+
+.about_us{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background-image: url(../images/bg-1.jpg);
+    background-size: 100% 100%;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.about_us p{
+    width: 40%;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000;
+    background-color: rgba(0 , 0 , 0 ,0.035);
+}
+.about_us button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    }
+
+.blog{
+    width: 100%;
+}
+.blog .container{
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog .container .title h2{
+    font-size: 60px;
+}
+.blog .container .stories{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+} 
+.blog .container .stories .story{
+    width: 25%;
+    justify-content: space-around;
+}
+.blog .container .stories .story .contain{
+    display: flex;
+}
+.blog .container .stories .story img{
+    width: 95%;
+}
+
+.blog .container .stories .story .contain .right{
+    width: 80%;
+}
+.blog .container .stories .story .contain .left{
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+    background-color: #F00;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 15px; 
+    border-radius: 50%;  
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.blog .container .stories .story .contain .left h4{
+   margin: 0;
+   text-align: center;
+
+}
+.donate{
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+.donate .container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donate .container .title h2{
+    font-size: 60px;
+}
+.donate .container .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.donate .container form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.donate .container .form form input {
+    width: 70%;
+    height: 30px;
+}
+.donate .container .form form select{
+    width: 75%;
+    height: 30px;
+    font-weight: bold;
+    text-align: center; 
+    font-size: 15px;
+}
+.donate .container .form form textarea{
+    width: 75%;
+}
+.donate .container .form form label{
+    width: 25%;
+    font-size: 18px;
+}
+.donate .container .form form .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.donate .container .form form .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.donate .container .form form .input{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+.donate .container .form form .input label{
+    width: 20%;
+}
+
+.donate .container .form form .input input{
+    width: 75%;
+}
+.donate .container button{
+  width: 5%;
+  height: 10%;
+  background-color: tomato;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  color: #eee;
+  font-weight: bold;
+
+}
