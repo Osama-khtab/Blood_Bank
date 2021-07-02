@@ -1,0 +1,215 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
+     <title id="title">ViewRequests</title>
+    </head>
+   
+       
+    
+    
+    
+        <body  id="ViewReq">
+ <!-------------------------------------------NavBar-------------------------------------------------->
+ <nav class="navbar navbar-expand-md text-light fixed-top ">
+  <a class="navbar-brand" href="#">Blood Bank</a>
+
+<button class=" btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-bars Navicon"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav  ml-auto mt-2 mt-lg-0   justify-content-end ">
+      <li class="nav-item">
+        <div class="btn-group ">
+           <a class=" Navhome nav-link Navpages" href="#home">Home</a>
+         
+           <div  class="nav-link px-0 mx-0 listdisplay">
+              <button class=" btn  navdropbtn nav-link droplist dropdown-toggle dropdown-toggle-split"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu ">
+                <a class="dropdown-item" href="#Benefits">How Your Donation Helps</a>
+                <a class="dropdown-item" href="#CurrentRequests">Current Blood Requests</a>
+                <a class="dropdown-item" href="#Progress">Donation Progress</a>
+                <a class="dropdown-item" href="#Volunteers">Volunteers</a>
+                <a class="dropdown-item" href="#FeedBack">FeedBack</a>
+              </div>
+            </div>
+       </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="About.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Donate.html">Give Blood</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="Request.html">Send Request</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Blog.html"> Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html">Log In</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+   
+
+<!---------------------------------------------View Requests------------------------------------------------------>
+     <div    class="py-5 mt-5 TableReq" id="ViewReqs">
+             <h2 class="text-center mt-2 " >All Requests</h2>
+        <div id="viewrequests" class="viewtable mt-4    bg-light shadow-lg mx-auto">
+           <table class="w-100 tablebg  text-center m-auto rounded-top shadow">
+            <colgroup>
+              <col  style="width: 15%;">
+              <col  style="width: 30%;">
+              <col  style="width: 20%;">
+              <col  style="width: 20%;">
+              <col  style="width: 15%;">
+            </colgroup>
+
+               <thead >
+                   <tr >
+                       <th>Blood Group</th>
+                       <th>Name</th>
+                       <th>Date</th>
+                       <th>City</th>
+                       <th>Contact</th>
+                   </tr>
+                </thead>
+            
+                   <tbody >
+                       <tr class="border-bottom">
+                           <td >O+</td>
+                           <td>Mohamed Ahmed</td>
+                           <td>25-2-2021</td>
+                           <td>Maadi</td>
+                           <td>
+                            <button class="reqbtn btn btn-danger my-2">Contact</button>
+                           </td>
+                       </tr>
+
+                       <tr class="border-bottom">
+                           <td >B+</td>
+                           <td>Manal Mostafa </td>
+                           <td>26-2-2021</td>
+                           <td>Helwan</td>
+                           <td>
+                            <button class="reqbtn btn btn-danger my-2">Contact</button>
+                           </td>
+                       </tr>
+
+                       <tr class="border-bottom">
+                        <td >A-</td>
+                        <td>Ali Salama</td>
+                        <td>26-2-2021</td>
+                        <td>Haram</td>
+                        <td>
+                         <button class="reqbtn btn btn-danger my-2">Contact</button>
+                        </td>
+                      </tr>
+
+                    <tr class="border-bottom">
+                      <td >O+</td>
+                      <td>Ahmed said</td>
+                      <td>27-2-2021</td>
+                      <td>Helwan</td>
+                      <td>
+                       <button class="reqbtn btn btn-danger my-2">Contact</button>
+                      </td>
+                   </tr>
+
+                   <tr>
+                    <td >O-</td>
+                    <td>Sara Emad</td>
+                    <td>27-2-2021</td>
+                    <td>Maadi</td>
+                    <td>
+                     <button class="reqbtn btn btn-danger my-2 ">Contact</button>
+                    </td>
+                   </tr>
+
+                   </tbody>
+           </table>
+        
+          </div>
+        </div>
+         <!----------------------------------------Footer Section-------------------------------------------->
+   <section class="contact-us py-5 mt-5 bg-dark text-white " id="Contact">
+    <div class="container">
+        <div class="title text-center contline">
+            <h2 class="pt-3 ">Contact Us</h2>
+            <div class="line-mf m-auto"></div>
+        </div>
+        <div class="row justify-content-center test mt-5  text-center">
+       
+            <div class="col-md-4">
+              <div class="d-inline-block">
+                <h6 class="footertext">Call us</h6>
+                <div class="d-inline-block">
+                    <i class="fas fa-phone-alt footicon"></i>
+                </div>
+                <div class="d-inline-block">
+                   
+                    <p>+880 123 45645</p>
+                </div>
+            </div>
+          </div>
+            <div class="col-md-4 ">
+              <div class="d-inline-block">
+                <h6 class="footertext">Email us</h6>
+                <div class="d-inline-block">
+                    <i class="fas fa-envelope-open-text footicon"></i>
+                </div>
+                <div class="d-inline-block">
+                   
+                    <p>contact@mail.com</p>
+                </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+                <div class="d-inline-block">
+                    <h6 class="footertext">Follow us</h6>
+                    <div class="vol-icons ">
+                        <i class="fab fa-facebook-square vol-icon"></i>
+                        <i class="fab fa-twitter-square vol-icon"></i>
+                        <i class="fab fa-instagram-square vol-icon"></i>
+                        <i class="fab fa-pinterest vol-icon"></i>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white border-top text-center py-2">
+    2021 Bldonors.All rights reseved
+</footer>
+
+
+<!------------------------------------------------------script---------------------------------------------------------->
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script> 
+
+
+
+</body>
+</html>
